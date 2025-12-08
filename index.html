@@ -13,13 +13,13 @@
 
     <!-- 4. Favicon (Browser Tab Icon) -->
     <!-- Apni image ka path sahi lagana -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <!-- Video ka Poster Image Preload karo (LCP Fast hoga) -->
-<link rel="preload" as="image" href="images/video-poster.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="/images/video-poster.jpg" fetchpriority="high">
 
 
     <!-- 5. CSS File (Preload for Speed - Optional but Good) -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/src/styles.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <div class="container">
         <div class="logo">
             <a href="index.html">
-                <img src="images/logo.jpg" alt="Aadar Satkar Logo">
+                <img src="/images/logo.jpg" alt="Aadar Satkar Logo">
             </a>
         </div>
 
@@ -92,8 +92,8 @@
 
  <!-- Hero Section -->
 <section class="hero">
-<video autoplay muted loop playsinline class="hero-video" poster="images/video-poster.jpg">
-    <source src="viedo/bg-video.mp4" type="video/mp4">
+<video autoplay muted loop playsinline class="hero-video" poster="/images/video-poster.jpg">
+    <source src="/viedo/bg-video.mp4" type="video/mp4">
 </video>
 
 
@@ -259,7 +259,7 @@
                 </a>
 
                 <a href="pages/destinations/bali.html" class="dest-card">
-                    <div class="dest-image" style="background-image: url('images/Bali.jpg');">
+                    <div class="dest-image" style="background-image: url('/images/Bali.jpg');">
                         <span class="dest-label">Bali</span>
                     </div>
                     <div class="dest-info">
@@ -425,7 +425,7 @@
         emailjs.init("Awx8NRE5rPqxXJXvX"); 
     </script>
 
-       <script defer src="script.js"></script>
+       <script type="module" src="/src/script.js"></script>
 
 </body>
 </html>
