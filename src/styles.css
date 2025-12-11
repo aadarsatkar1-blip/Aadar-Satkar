@@ -451,6 +451,8 @@ body {
 }
 
 
+
+
 .image-placeholder {
 background: url('/images/meet the foundition.jpg')
     center/cover no-repeat;
@@ -1250,3 +1252,41 @@ form textarea {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+
+
+
+/* Mobile hero adjustment */
+@media (max-width: 768px) {
+    .hero {
+        display: flex;                /* Use flex for centering */
+        flex-direction: column;       /* Stack content vertically */
+        justify-content: center;      /* Vertical centering */
+        align-items: center;          /* Horizontal centering */
+        min-height: 100vh;            /* Full screen height */
+        padding: 20px;                /* Optional spacing */
+        text-align: center;           /* Center text inside */
+    }
+
+    .hero-content {
+        margin: 0;                    /* Remove extra margin */
+    }
+
+    .explore-btn {
+        display: inline-block;
+        margin-top: 20px;
+        transform: none;
+    }
+
+    .hero h1 {
+        font-size: clamp(22px, 5vw, 36px);
+        margin-bottom: 20px;
+    }
+
+    .hero-features {
+        margin-bottom: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
