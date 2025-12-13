@@ -819,6 +819,7 @@ font-size: 20px;
         flex-direction: column;
         width: 100%;
         align-items: center;
+        gap: 10px;
     }
 }
 
@@ -1164,7 +1165,7 @@ form textarea {
     }
 
     .nav-menu li {
-        margin: 16px 0;
+        margin: -8px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thin divider line */
     }
 
@@ -1203,7 +1204,7 @@ form textarea {
     /* Sub-menu Links Styles */
     .dropdown-content a {
         padding-left: 50px; /* ज्यादा Indentation ताकि पता चले ये सब-मेन्यू है */
-        padding-top: 14px;
+        padding-top: 0px;
         padding-bottom: 14px;
         
         font-size: 15px; /* मेन लिंक से थोड़ा छोटा */
@@ -1227,6 +1228,7 @@ form textarea {
         font-weight: 300;
         transition: transform 0.3s;
         margin-right: 10px;
+        margin-top: -10px;
     }
     
 
